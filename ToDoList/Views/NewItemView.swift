@@ -40,8 +40,8 @@ struct NewItemView: View {
                 .padding()
             }
             .alert(isPresented: $viewModel.showAlert) {
-                Alert(title: Text("Erro!"),
-                      message: Text("Preencha todos os campos e selecione uma data posterior a hoje")
+                Alert(title: Text("Error!"),
+                      message: Text("Fill in all the fields and select a date after today.")
                 )
             }
         }
